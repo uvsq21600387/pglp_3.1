@@ -1,10 +1,8 @@
-package Mathieu_De_Jesus.pglp_3_1;
+package Mathieu_De_Jesus.pglp_3_1.employe;
 
 class Employe1 {
 	
-	@SuppressWarnings("unused")
 	private String name;
-	@SuppressWarnings("unused")
 	private String adresse;
 	
 	public Employe1(String name, String adresse) {
@@ -14,5 +12,9 @@ class Employe1 {
 	
 	public double calculSalaire() {
 		return 1500.56;
+	}
+	
+	public String toString() {
+		return name + " at " + adresse;
 	}
 }
