@@ -14,7 +14,11 @@ class Employe1 {
 		return 1500.56;
 	}
 	
-	public String toString() {
-		return name + " at " + adresse;
+	public String getName() {
+		return name;
+	}
+	
+	public String getAdresse() {
+		return adresse;
 	}
 }
