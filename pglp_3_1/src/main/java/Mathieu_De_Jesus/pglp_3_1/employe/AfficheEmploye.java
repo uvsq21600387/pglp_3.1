@@ -2,13 +2,15 @@ package Mathieu_De_Jesus.pglp_3_1.employe;
 
 class AfficheEmploye {
 	
-	Employe1 e;
+	private String name;
+	private String adresse;
 	
-	public AfficheEmploye(Employe1 e) {
-		this.e = e;
+	public AfficheEmploye(String name, String adresse) {
+		this.name = name;
+		this.adresse = adresse;
 	}
 	
 	public void afficheCoordonnees() {
-		System.out.println(e.getName() + ", " + e.getAdresse());
+		System.out.println(name + ", " + adresse);
 	}
 }
